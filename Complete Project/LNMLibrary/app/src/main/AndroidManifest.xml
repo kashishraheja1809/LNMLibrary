@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kartikexample.lnmlibrary" >
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--
+ To retrieve OAuth 2.0 tokens or invalidate tokens to disconnect a user. This disconnect
+     option is required to comply with the Google+ Sign-In developer policies
+    -->
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" /> <!-- To retrieve the account name (email) as part of sign-in: -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" /> <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name=".FacultyActivity"
+            android:label="@string/title_activity_faculty" >
+        </activity>
+        <activity
+            android:name=".AdminActivity"
+            android:label="@string/title_activity_faculty" >
+        </activity>
+        <activity
+            android:name=".Faculty_bookRequest"
+            android:label="@string/title_activity_faculty_book_request" >
+        </activity>
+        <activity
+            android:name=".Admin_UserEnrollActivity"
+            android:label="@string/title_activity_admin__user_enroll" >
+        </activity>
+        <activity
+            android:name=".Admin_NewBookActivity"
+            android:label="@string/title_activity_admin__new_book" >
+        </activity>
+        <activity
+            android:name=".SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name=".Admin_Purchase"
+            android:label="@string/title_activity_admin__purchase" >
+        </activity>
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password" >
+        </activity>
+        <activity
+            android:name=".Navi_draw"
+            android:label="@string/title_activity_navi_draw" >
+        </activity>
+        <activity
+            android:name=".Navi_draw_faculty"
+            android:label="@string/title_activity_navi_draw_faculty" >
+        </activity>
+        <activity
+            android:name=".Navi_draw_user"
+            android:label="@string/title_activity_navi_draw_user" >
+        </activity>
+        <activity
+            android:name=".Book_PopUp"
+            android:label="@string/title_activity_book__pop_up"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+        <activity
+            android:name=".TransactionActivity"
+            android:label="@string/title_activity_transaction" >
+        </activity>
+    </application>
+
+</manifest>

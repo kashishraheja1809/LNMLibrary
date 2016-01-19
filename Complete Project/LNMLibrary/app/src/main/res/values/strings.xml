@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">LNMLibrary</string>
+    <string name="login_message">Welcome to LPCM</string>
+    <string name="title_activity_user">UserActivity</string>
+
+    <string name="home">Home</string>
+    <string name="trans_his">Transaction History</string>
+    <string name="new_book">Request for a new book</string>
+    <string name="prof">Profile</string>
+    <string name="book_data">Data Entry</string>
+    <string name="enrol_user">Enroll New Users</string>
+    <string name="book_pur">Book Purchase</string>
+    <string name="ch_pass">Change Password</string>
+    <string name="notifications">Notifications</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_faculty">FacultyActivity</string>
+    <string name="title_activity_faculty_book_request">Faculty_bookRequest</string>
+    <string name="resform_title">Title</string>
+    <string name="resform_author">Author</string>
+    <string name="reqform_copies">Number of Copies</string>
+    <string name="reqform">REQUEST FORM</string>
+    <string name="title_activity_admin__user_enroll">Admin_UserEnrollActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="userenrollheader">User Enrollment</string>
+    <string name="enroll_username">User Name</string>
+    <string name="enroll_userid">User ID</string>
+    <string name="enroll_userpass">Password</string>
+    <string name="enroll_userdepartment">Department</string>
+    <string name="enroll_usercategory">Category</string>
+
+    <string name="admin_book_submit">Submit</string>
+    <string name="admin_book_cancel">Cancel</string>
+    <string name="no_not">No Notification</string>
+    <string name="admin_book_header">New Book Details</string>
+    <string name="admin_book_title">Book Title</string>
+    <string name= "admin_book_author">Book Author</string>
+    <string name="admin_book_publisher">Publisher</string>
+    <string name="admin_book_acc_no">Accession No.</string>
+    <string name="admin_book_call_no">Call No.</string>
+    <string name="admin_book_isbn">ISBN</string>
+    <string name="admin_book_status">Status</string>
+    <string name="admin_book_item_type">Book Type</string>
+    <string name="admin_book_res_by">Reserved By</string>
+    <string name="Ch_pass_header">Change Password</string>
+    <string name="old_pass">Old Password</string>
+    <string name="new_pass">New Password</string>
+    <string name="confirm_pass">Confirm Password</string>
+
+    <string-array name="Department_array">
+        <item>Computer Science Engineering</item>
+        <item>Electronics and Communication Engineering</item>
+        <item>Computer and Communication Engineering</item>
+        <item>Mechatronics Engineering</item>
+        <item>Mechanical Engineering</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="navigation_drawer_items_array">
+    <item>Home</item>
+    <item>Search</item>
+    <item>Profile</item>
+    <item>Notifications</item>
+    <item>Transaction History</item>
+    <item>New Book Entry</item>
+    <item>Enroll New User</item>
+    <item>Book Purchase</item>
+    <item>Change Password</item>
+        <item>Logout</item>
+</string-array>
+
+    <string-array name="navigation_drawer_items_array1">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Profile</item>
+        <item>Transaction History</item>
+        <item>Request for Book</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+    <string-array name="navigation_drawer_items_array2">
+        <item>Home</item>
+        <item>Search</item>
+        <item>Profile</item>
+        <item>Transaction History</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="UserCategory_array">
+        <item>UG</item>
+        <item>PG</item>
+        <item>PHD</item>
+        <item>Faculty</item>
+        <item>Staff</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="BookSearch">
+        <item>TITLE</item>
+        <item>AUTHOR NAME</item>
+        <item>ACCESSION NO.</item>
+        <item>CALL NO</item>
+        <item>ISBN</item>
+
+    </string-array>
+    <string name="title_activity_admin__new_book">Admin_NewBookActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="searchby">Search by</string>
+    <string name="choose">Choose</string>
+    <string name="title_activity_admin__purchase">Admin_Purchase</string>
+    <string name="admin_book_pur_header">Book Purchase</string>
+    <string name="admin_book_pur_noc">No. of Copies</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="title_activity_navi_draw">Navi_draw</string>
+    <string name="title_activity_navi_draw_faculty">Navi_draw_faculty</string>
+    <string name="title_activity_navi_draw_user">Navi_draw_user</string>
+    <string name="title_activity_book__pop_up">Book_PopUp</string>
+    <string name="pop_up">PopUP</string>
+    <string name="book_title">Title</string>
+    <string name="book_title_popup">Title:</string>
+    <string name="book_author_pop_up">Author:</string>
+    <string name="book_publisher_pop_up">Publisher:</string>
+    <string name="book_isbn_pop_up">ISBN:</string>
+    <string name="book_acc_no_pop_up">Acc No.:</string>
+    <string name="book_call_no_pop_up">Call No.:</string>
+    <string name="book_status_pop_up">Status:</string>
+    <string name="button_reserve_pop_up">Reserve</string>
+    <string name="title_activity_transaction">TransactionActivity</string>
+    <string name="th_Username">Username </string>
+    <string name="th_UserCategory">Category</string>
+
+</resources>
